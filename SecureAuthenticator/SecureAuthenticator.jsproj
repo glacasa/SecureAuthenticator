@@ -112,12 +112,6 @@
     <Content Include="js\localdata.js" />
     <Content Include="js\sha.js" />
     <Content Include="js\totp.js" />
-    <Content Include="merges\android\scripts\android2.3-jscompat.js" />
-    <Content Include="merges\android\scripts\platformOverrides.js" />
-    <Folder Include="merges\ios\" />
-    <Content Include="merges\windows8\scripts\platformOverrides.js" />
-    <Content Include="merges\windows8\scripts\winstore-jscompat.js" />
-    <Folder Include="merges\wp8\" />
     <Folder Include="res\icons\android\" />
     <Folder Include="res\icons\ios\" />
     <Folder Include="res\icons\wp8\" />
@@ -132,8 +126,6 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="index.html" />
-    <Content Include="scripts\index.js" />
-    <Content Include="scripts\platformOverrides.js" />
     <Content Include="res\cert\android\ant.properties" />
     <Content Include="res\icons\android\icon-36-ldpi.png" />
     <Content Include="res\icons\android\icon-48-mdpi.png" />
