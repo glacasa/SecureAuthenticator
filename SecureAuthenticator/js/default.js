@@ -80,7 +80,12 @@
             errorDiv.style.visibility = "visible";
             return;
         }
-        //TODO : check if key is correct
+        var keyChecker = /^[A-Za-z2-7]{16}$/;
+        if (!keyChecker.test(key)) {
+            errorDiv.innerHTML = "The code seems to be incorrect";
+            errorDiv.style.visibility = "visible";
+            return;
+        }
 
         accounts.push({ name: name, key: key });
         Data.saveAccounts(accounts);
