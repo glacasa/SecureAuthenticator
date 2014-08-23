@@ -1,0 +1,4 @@
+SecureAuthenticator/bld/
+SecureAuthenticator/bin/
+*.user
+*.suo
